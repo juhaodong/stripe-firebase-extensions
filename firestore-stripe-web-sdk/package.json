@@ -1,6 +1,6 @@
 {
-  "name": "@innerken/firestore-stripe-payments",
-  "version": "0.0.7",
+  "name": "firestore-stripe-payments-jhd",
+  "version": "0.0.8",
   "description": "Client SDK for the firestore-stripe-payments Firebase Extension",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -9,6 +9,7 @@
     "api-extractor": "api-extractor run --verbose",
     "api-extractor:local": "npm run build && api-extractor run --local --verbose",
     "build": "tsc",
+    "pub": "npm run build && npm publish",
     "postbuild": "node ./postbuild.js",
     "test": "firebase emulators:exec --only firestore,auth --project fake-project-id 'npm run test:unit' && exit 0",
     "test:unit": "karma start --single-run"
