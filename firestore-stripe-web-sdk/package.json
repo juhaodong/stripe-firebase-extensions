@@ -61,9 +61,9 @@
     "webpack": "^4.46.0"
   },
   "dependencies": {
-    "@firebase/app": "^0.9.13",
-    "@firebase/auth": "^0.23.1",
-    "@firebase/firestore": "^3.12.2",
+    "@firebase/app": "0.9.13",
+    "@firebase/auth": "0.23.1",
+    "@firebase/firestore": "3.12.2",
     "release-it": "^16.1.0"
   }
 }
