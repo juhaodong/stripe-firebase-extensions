@@ -1,6 +1,6 @@
 {
   "name": "firestore-stripe-payments-jhd",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Client SDK for the firestore-stripe-payments Firebase Extension",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -63,7 +63,7 @@
   "dependencies": {
     "@firebase/app": "0.9.13",
     "@firebase/auth": "0.23.1",
-    "@firebase/firestore": "3.12.2",
+    "@firebase/firestore": "3.13.0",
     "release-it": "^16.1.0"
   },
   "release-it": {
