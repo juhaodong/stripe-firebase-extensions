@@ -9,7 +9,7 @@
     "api-extractor": "api-extractor run --verbose",
     "api-extractor:local": "npm run build && api-extractor run --local --verbose",
     "build": "tsc",
-    "pub": "npm run build && npm publish",
+    "pub": "npm run build && release-it",
     "postbuild": "node ./postbuild.js",
     "test": "firebase emulators:exec --only firestore,auth --project fake-project-id 'npm run test:unit' && exit 0",
     "test:unit": "karma start --single-run"
